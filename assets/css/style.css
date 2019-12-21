@@ -28,7 +28,7 @@ h1 {
 
 /* header */
 
-#masthead {
+.header {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -39,8 +39,15 @@ h1 {
   border-bottom: 2px solid #cccccc;
 }
 
+.masthead {
+  margin-left: 50px;
+  width: 200px;
+  background: #4aaaa5;
+  text-align: center;
+}
+
 .currentPage {
-  color: #4aaaa5;
+  color: #666666;
 }
 
 /* main */
@@ -79,8 +86,11 @@ footer {
   color: #ffffff;
   text-align: center;
   background: #666666;
-  border-top: 8px solid darkgray;
+  border-top: 8px solid #4aaaa5;
   height: 50px;
+  position:fixed;
+  bottom:0px;
+  width: 100%;
 }
 
 /* portfolio page */
@@ -89,7 +99,6 @@ footer {
   position: relative;
   float: left;
   width: 300px;
-  /* margin: 0px 75px 0px 70px; */
   overflow: auto;
 }
 
